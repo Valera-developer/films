@@ -1,0 +1,31 @@
+{
+  "name": "films",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Valera-developer/films#readme",
+  "bugs": {
+    "url": "https://github.com/Valera-developer/films/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Valera-developer/films.git"
+  },
+  "license": "ISC",
+  "author": "german",
+  "type": "commonjs",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "dotenv -- ts-node src/index",
+    "dev": "dotenv -- nodemon src/index.ts"
+  },
+  "dependencies": {
+    "express": "^5.3.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "nodemon": "^3.1.14",
+    "prettier": "^3.9.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^7.0.2"
+  }
+}
