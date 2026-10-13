@@ -19,7 +19,8 @@
     "dev": "dotenv -- nodemon src/index.ts"
   },
   "dependencies": {
-    "express": "^5.3.0"
+    "express": "^5.3.0",
+    "sqlite3": "^6.0.1"
   },
   "devDependencies": {
     "@types/express": "^5.0.6",

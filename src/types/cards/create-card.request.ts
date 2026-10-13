@@ -1,3 +1,6 @@
 export type CreateCardRequest = {
-    text: string;
+  id: 'string';
+  name: 'string';
+  description: 'string';
+  strubboness: 'string';
 };

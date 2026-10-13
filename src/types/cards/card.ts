@@ -1,5 +1,6 @@
 export type card = {
-    id: string;
-    description: string;
-    strubboness: number;
-}
+  id: string;
+  name: string;
+  description: string;
+  strubboness: string;
+};
