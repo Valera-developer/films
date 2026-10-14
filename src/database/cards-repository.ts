@@ -17,10 +17,10 @@ export const createCard = async (card: card): Promise<void> => {
 export const updateCard = async (card: card): Promise<void> => {
   await sqliteRun(
     `
-    UPTADE films SET description = ?
-    WHERE id = ?;
+    UPDATE films SET name = ?, description = ?, strubboness = ?
+    WHERE id = ?
     `,
-    [card.id, card.description],
+    [card.name, card.description, card.strubboness, card.id],
   );
 };
 

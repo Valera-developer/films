@@ -58,7 +58,7 @@ cardsRouter.put(
     response: Response<card>,
   ) => {
     const card = {
-      id: request.body.id,
+      id: request.params.id,
       name: request.body.name,
       description: request.body.description,
       strubboness: request.body.strubboness,
